@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-require "awesome_print"
-
 # def isGameOver(board)
 #     if (board.contains? "XXX") || (board.contains? "OOO")
 #         return true
