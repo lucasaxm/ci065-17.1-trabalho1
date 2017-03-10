@@ -55,7 +55,7 @@ player = 'O'
 
 result_hash = find_all_boards(parent,player);
 
-output="digraph \"tic-tac-toe subgraph\" {\n"
+output="strict digraph \"velha\" {\n"
 result_hash.each_key { |key|
     result_hash[key].each { |value|
         output+="\t\"#{key}\" -> \"#{value}\"\n"
